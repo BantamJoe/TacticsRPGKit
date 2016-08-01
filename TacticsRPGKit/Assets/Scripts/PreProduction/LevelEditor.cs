@@ -6,7 +6,6 @@ using System.IO;
 
 public class LevelEditor : MonoBehaviour
 {
-
 	[SerializeField]
 	GameObject tileViewPrefab;
 	[SerializeField]

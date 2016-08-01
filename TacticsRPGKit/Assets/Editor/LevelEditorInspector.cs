@@ -44,24 +44,19 @@ public class LevelEditorInspector : Editor
 	void OnSceneGUI()
 	{
 		Event e = Event.current;
-		switch(e.type)
-		{
+		switch (e.type) {
 		case EventType.keyDown:
 			{
-				if(Event.current.keyCode == (KeyCode.A))
-				{
+				if (Event.current.keyCode == (KeyCode.A)) {
 					current.MoveMarkerLeft();
 				}
-				if(Event.current.keyCode == (KeyCode.D))
-				{
+				if (Event.current.keyCode == (KeyCode.D)) {
 					current.MoveMarkerRight();
 				}
-				if(Event.current.keyCode == (KeyCode.W))
-				{
+				if (Event.current.keyCode == (KeyCode.W)) {
 					current.MoveMarkerUp();
 				}
-				if(Event.current.keyCode == (KeyCode.S))
-				{
+				if (Event.current.keyCode == (KeyCode.S)) {
 					current.MoveMarkerDown();
 				}
 				break;
