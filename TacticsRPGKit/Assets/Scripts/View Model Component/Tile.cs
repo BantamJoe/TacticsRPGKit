@@ -3,7 +3,6 @@ using System.Collections;
 
 public class Tile : MonoBehaviour
 {
-
 	public const float stepHeight = 0.5f;
 	public Point pos;
 	public int height;
